@@ -9,7 +9,6 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { FaSkiing } from "react-icons/fa";
 import { BsSnow } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io5";
-import { Suspense } from "react";
 
 export const categories = [
     {
@@ -113,14 +112,12 @@ const Categories = () => {
                 "
             >
                 {categories.map((item) => (
-                    <Suspense>
                     <CategoryBox
                         key={item.label}
                         label={item.label}
                         selected={category == item.label}
                         icon={item.icon}
                     />
-                    </Suspense>
                 ))}
             </div>
         </Container>
