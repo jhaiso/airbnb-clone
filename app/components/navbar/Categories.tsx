@@ -113,7 +113,7 @@ const Categories = () => {
                 "
             >
                 {categories.map((item) => (
-                    <Suspense>
+                    <Suspense key={item.label}>
                     <CategoryBox
                         key={item.label}
                         label={item.label}
