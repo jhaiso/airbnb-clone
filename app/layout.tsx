@@ -11,14 +11,16 @@ import getCurrentUser from "./actions/getCurrentUser";
 import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SearchModal";
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: "Airbnb",
   description: "Airbnb clone project",
 };
 
 const font = Nunito({
-  subsets: ["latin"]
-})
+  subsets: ["latin"],
+});
 
 export default async function RootLayout({
   children,
@@ -35,12 +37,10 @@ export default async function RootLayout({
           <RentModal />
           <RegisterModal />
           <LoginModal />
-          <Navbar currentUser={currentUser}/>
+          <Navbar currentUser={currentUser} />
         </ClientOnly>
-        <div className="bp-20 pt-28">
-          {children}
-        </div>
-        </body>
+        <div className="bp-20 pt-28">{children}</div>
+      </body>
     </html>
   );
 }
