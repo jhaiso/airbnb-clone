@@ -132,13 +132,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Tailwind CSS]: https://tailwindcss.com/
-[Tailwind CSS-url]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
-[Prisma]: https://www.prisma.io/
-[Prisma-url]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
-[MongoDB]: https://www.mongodb.com/
-[MongoDB-url]: https://img.shields.io/badge/-MongoDB-4DB33D?style=flat&logo=mongodb&logoColor=FFFFFF
-[NextAuth.js]: https://next-auth.js.org/
-[NextAuth.js-url]:https://img.shields.io/badge/NextAuth.js-4CA2EF?style=for-the-badge&logo=next.js&logoColor=white
-[Vercel]: https://vercel.com/jhaisos-projects
-[Vercel-url]:https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Tailwind CSS-url]: https://tailwindcss.com/
+[Tailwind CSS]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
+[Prisma-url]: https://www.prisma.io/
+[Prisma]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
+[MongoDB]: https://img.shields.io/badge/-MongoDB-4DB33D?style=flat&logo=mongodb&logoColor=FFFFFF
+[NextAuth.js-url]: https://next-auth.js.org/
+[NextAuth.js]:https://img.shields.io/badge/NextAuth.js-4CA2EF?style=for-the-badge&logo=next.js&logoColor=white
+[Vercel-url]: https://vercel.com/jhaisos-projects
+[Vercel]:https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
